@@ -1,7 +1,7 @@
 body {
   color: #000000;
   font-family: 'Lexend Deca', sans-serif;
-  background-color: gray;
+  background-color: #000000;
   background-image: url('https://i.pinimg.com/originals/66/3a/46/663a4639787891da6037588879e36176.gif');
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,8 +27,8 @@ a {
 .main {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
-  height: 1500px;
+  width: 1000px;
+  height: 1375px;
   margin: 20px auto;
   outline: 1px solid #affde4;
   /* outline: 1px solid #bd5453; */
@@ -39,9 +39,9 @@ a {
 
 .main-content {
   background-color: #ffffff;
-  padding: 90px;
+  padding: 70px;
   border-radius: 0 20px 20px 0;
-  width: 830px;
+  width: 650px;
 }
 
 /** about styles */
@@ -66,7 +66,7 @@ a {
   color: #595959;
   font-size: 14px;
   line-height: 24px;
-  width: 550px;
+  width: 480px;
   text-align: justify;
 }
 
@@ -210,8 +210,8 @@ a {
 /** sidebar styles */
 .sidebar {
   background-color: #1e221d;
-  padding: 60px 20px;
-  width: 370px;
+  padding: 70px 20px;
+  width: 350px;
   border-radius: 120px 0 0 20px;
 }
 
