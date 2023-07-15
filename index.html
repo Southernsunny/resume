@@ -1,130 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="styles/styles.css">
-   <title>Resume</title>
-</head>
-<body class="gradient">
-<!--Main-->
-<div class="main">
-   <!--Main content-->
-   <div class="main-content">
-      <!--about user-->
-      <div class="about">
-         <h2 class="about-position">Front-End Developer</h2>
-         <h1 class="about-name">Olia Medvetska</h1>
-         <p class="about-description">After seven years of studying in the field of study "Architecture and construction", I realized that I wanted to change the direction of my life. That's why I'm trying to study in the IT. I am diligent in my tasks and hope to become a specialist in the future.
-         </p>
-      </div>
-      <!--Project-->
-      <div class="projects">
-         <h3 class="title">Projects</h3>
-         <ol class="projects-list">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Resume</title>
+  </head>
+  <body class="gradient">
+    <!--Main-->
+    <main class="main">
+      <!--Main content-->
+      <div class="main-content">
+        <!--about user-->
+        <div class="about">
+          <h2 class="about-position">Junior Front-End Developer</h2>
+          <h1 class="about-name">Olia Medvetska</h1>
+          <p class="about-description">
+            I am a junior front-end developer with a passion for the visual aspects of web
+            development. I am constantly learning and improving my skills in JavaScript and React. I
+            pay attention to detail and enjoy seeing projects through to completion. I am diligent,
+            highly responsible, punctual, and honest, always eager to learn and gain new
+            experiences. While initially a bit shy, I am a friendly team player with a good sense of
+            humor.
+          </p>
+        </div>
+        <!--Project-->
+        <div class="projects">
+          <h3 class="title">Projects Experience</h3>
+          <ol class="projects-list">
             <li class="projects-item">
-               <span class="project">
-                  <a href="https://hellenglish.goit.global/" class="project-link">https://hellenglish.goit.global/</a>
-                  ............... <span class="project-bracket">[</span> HTML5, CSS3 <span class="project-bracket">]</span>  </span>
-               </li>
+              <div class="project-descr">
+                <a
+                  href="https://github.com/Southernsunny/goit-markup-hw-08"
+                  target="_blank"
+                  class="git-link"
+                  ><i class="fa-brands fa-github fa-lg"></i
+                ></a>
+                <a
+                  href="https://southernsunny.github.io/goit-markup-hw-08/"
+                  rel="noopener noreferrer nofollow"
+                  target="_blank"
+                  class="project-link"
+                  >WebStudio</a
+                >
+
+                <p class="projects-tech">[HTML5, CSS3]</p>
+              </div>
+
+              <p class="projects-text">Two-page website with responsive layout</p>
+            </li>
             <li class="projects-item">
-               <span class="project">
-                  <a href="https://cryptohub.goit.global/" class="project-link">https://cryptohub.goit.global/</a>
-                  ..................<span class="project-bracket">[</span> JavaScript <span class="project-bracket">]</span></span>
-               </li>
+              <div class="project-descr">
+                <a
+                  href="https://github.com/Southernsunny/goit-react-hw-04-images"
+                  target="_blank"
+                  class="git-link"
+                  ><i class="fa-brands fa-github fa-lg"></i
+                ></a>
+                <a
+                  href="https://southernsunny.github.io/goit-react-hw-04-images/"
+                  rel="noopener noreferrer nofollow"
+                  target="_blank"
+                  class="project-link"
+                  >Find Images</a
+                >
+                <p class="projects-tech">[React.js]</p>
+              </div>
+
+              <p class="projects-text">Search and view various pictures</p>
+            </li>
             <li class="projects-item">
-               <span class="project"> 
-                  <a href="https://kidslike.goit.global/" class="project-link">https://kidslike.goit.global/</a>
-                  .........................<span class="project-bracket">[</span> React.js, Node.js <span class="project-bracket">]</span></span>
-               </li>
-         </ol>
+              <div class="project-descr">
+                <a
+                  href="https://github.com/Southernsunny/goit-react-hw-07-phonebook"
+                  target="_blank"
+                  class="git-link"
+                  ><i class="fa-brands fa-github fa-lg"></i
+                ></a>
+                <a
+                  href="https://southernsunny.github.io/goit-react-hw-07-phonebook/"
+                  rel="noopener noreferrer nofollow"
+                  target="_blank"
+                  class="project-link"
+                  >Phonebook</a
+                >
+                <p class="projects-tech">[React, Redux]</p>
+              </div>
+              <p class="projects-text">Phonebook with the ability to save contacts</p>
+            </li>
+          </ol>
+        </div>
+        <!--Projects-->
+        <div class="teamwork">
+          <h3 class="title">Team Projects Experience</h3>
+          <!--Project 1-->
+          <div class="teamwork-project">
+            <div class="teamwork-links">
+              <a
+                href="https://ice-eskimo.netlify.app/"
+                rel="noopener noreferrer nofollow"
+                target="_blank"
+                class="teamwork-site"
+              >
+                Ice Cream
+              </a>
+              <span>| </span>
+              <a
+                href="https://github.com/IvanTymoshchuk/eskimo"
+                rel="noopener noreferrer nofollow"
+                target="_blank"
+                class="teamwork-git"
+              >
+                GitHub
+              </a>
+              <span> | </span>
+              <a
+                href="https://www.canva.com/design/DAFX3WOiOHc/1SixYKp_RhIegBczEjMPQA/view?utm_content=DAFX3WOiOHc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                rel="noopener noreferrer nofollow"
+                target="_blank"
+                class="teamwork-presentation"
+              >
+                presentation
+              </a>
+            </div>
+            <p class="teamwork-tech">[HTML, SASS, JS, Parcel]</p>
+            <p class="teamwork-descr">
+              A website for ice cream product companies. Adaptive design, animations, modal windows,
+              and burger menu for ordering.
+            </p>
+            <p class="teamwork-position">Role: SCRUM & developer</p>
+          </div>
+          <!--Project 2-->
+          <div class="teamwork-project">
+            <div class="teamwork-links">
+              <a
+                href="https://alexkorpol.github.io/cinemania/"
+                rel="noopener noreferrer nofollow"
+                target="_blank"
+                class="teamwork-site"
+              >
+                Cinemania
+              </a>
+              <span>| </span>
+              <a
+                href="https://github.com/alexkorpol/cinemania"
+                rel="noopener noreferrer nofollow"
+                target="_blank"
+                class="teamwork-git"
+              >
+                GitHub
+              </a>
+              <span> | </span>
+              <a
+                href="https://www.canva.com/design/DAFiPnTuxns/Mr3Q2HLHopkR9BnDzUmVkA/view?utm_content=DAFiPnTuxns&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                rel="noopener noreferrer nofollow"
+                target="_blank"
+                class="teamwork-presentation"
+              >
+                presentation
+              </a>
+            </div>
+            <p class="teamwork-tech">[HTML, SASS, JS, REST API, Axios, Parcel]</p>
+            <p class="teamwork-descr">
+              A movie search site with the ability to add movies to your own library. The website
+              backend comes from the TMDB API
+            </p>
+            <p class="teamwork-position">Role: SCRUM & developer</p>
+          </div>
+        </div>
+        <!--Education-->
+        <div class="education">
+          <h3 class="title">Education</h3>
+          <h4 class="university">GoIT</h4>
+          <h4 class="department">Junior, Full stack developer</h4>
+          <p class="education-period">
+            October 2022 - September 2023 <span class="line">|</span> Ukraine
+          </p>
+          <h4 class="university">Lviv Polytechnic National University</h4>
+          <h4 class="department">Bachelor's degree, Building and Civil Engineering</h4>
+          <p class="education-period">
+            September 2019 - June 2022 <span class="line">|</span> Lviv, Ukraine
+          </p>
+          <h4 class="university">Lviv College of building, architecture and design</h4>
+          <h4 class="department">
+            Junior Specialist, Construction and maintenance of buildings and structures
+          </h4>
+          <p class="education-period">
+            September 2015 - June 2019 <span class="line">|</span> Lviv, Ukraine
+          </p>
+        </div>
       </div>
-      <!--Work-->
-      <div class="work">
-         <h3 class="title">Work Experience</h3>
-         <!--Company 1-->
-         <div>
-            <h4 class="work-position">Front-End Developer <span class="organization">Freelance</span></h4>
-            <p class="work-period">September 2019 - up to now   <span class="line">|</span>   Ukraine</p>
-            <ul class="work-list">
-               <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
-               <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-               <li class="work-list-item">Risus commodo viverra maecenas.</li>
-               <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+      <!--Sidebar-->
+      <aside class="sidebar">
+        <div class="photo-container">
+          <!-- <img src="img/IMG_0867.jpeg" alt="user photo" class="photo" /> -->
+          <img src="img/my_photo.jpeg" alt="user photo" class="photo" />
+        </div>
+
+        <!--Contacts-->
+        <div class="contacts">
+          <h3 class="sidebar-title">Contacts</h3>
+          <div>
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <a
+                  href="https://goo.gl/maps/LyjTn18LYGprMdNi9"
+                  rel="noopener noreferrer nofollow"
+                  target="_blank"
+                  class="contact-link"
+                >
+                  <lord-icon
+                    class="contact-icon"
+                    src="https://cdn.lordicon.com/elzslyvl.json"
+                    trigger="hover"
+                    colors="primary:#ff815b,secondary:#affde4"
+                    state="hover-spin"
+                    state="hover-jump"
+                    style="width: 30px; height: 30px"
+                  >
+                  </lord-icon
+                  >Lviv, Ukraine</a
+                >
+              </li>
+              <li class="contacts-item">
+                <a href="tel:+380631086272" rel="noopener noreferrer nofollow" class="contact-link">
+                  <lord-icon
+                    class="contact-icon"
+                    src="https://cdn.lordicon.com/hursldrn.json"
+                    trigger="morph"
+                    colors="primary:#ff815b,secondary:#affde4"
+                    style="width: 30px; height: 30px"
+                  >
+                  </lord-icon
+                  >+380 63 108 62 72</a
+                >
+              </li>
+              <li class="contacts-item">
+                <a
+                  href="mailto:olia.medvetska1967@gmail.com"
+                  rel="noopener noreferrer nofollow"
+                  class="contact-link"
+                >
+                  <lord-icon
+                    class="contact-icon"
+                    src="https://cdn.lordicon.com/egpbfgcp.json"
+                    trigger="hover"
+                    colors="primary:#ff815b,secondary:#affde4"
+                    style="width: 30px; height: 30px"
+                  >
+                  </lord-icon
+                  >olia.medvetska1967@gmail.com</a
+                >
+              </li>
+              <li class="contacts-item">
+                <a
+                  href="https://www.linkedin.com/in/olia-medvetska-4621a9261/"
+                  rel="noopener noreferrer nofollow"
+                  target="_blank"
+                  class="contact-link"
+                >
+                  <lord-icon
+                    class="contact-icon"
+                    src="https://cdn.lordicon.com/ljvjsnvh.json"
+                    trigger="morph"
+                    colors="primary:#ff815b,secondary:#affde4"
+                    state="morph"
+                    style="width: 30px; height: 30px"
+                  >
+                  </lord-icon
+                  >Linkedin</a
+                >
+              </li>
+              <li class="contacts-item">
+                <a
+                  href="https://github.com/Southernsunny"
+                  rel="noopener noreferrer nofollow"
+                  target="_blank"
+                  class="contact-link"
+                >
+                  <lord-icon
+                    class="contact-icon"
+                    src="https://cdn.lordicon.com/dfxesbyu.json"
+                    trigger="hover"
+                    colors="primary:#ff815b,secondary:#affde4"
+                    state="hover-1"
+                    style="width: 30px; height: 30px"
+                  >
+                  </lord-icon
+                  >GitHub</a
+                >
+              </li>
+              <li class="contacts-item">
+                <a
+                  href="https://t.me/Southernsunny"
+                  rel="noopener noreferrer nofollow"
+                  target="_blank"
+                  class="contact-link"
+                >
+                  <lord-icon
+                    class="contact-icon"
+                    src="https://cdn.lordicon.com/mjmrmyzg.json"
+                    trigger="hover"
+                    colors="primary:#ff815b,secondary:#affde4"
+                    style="width: 30px; height: 30px"
+                  >
+                  </lord-icon
+                  >Telegram</a
+                >
+              </li>
             </ul>
-         </div>
-         <!--Company 2-->
-         <div>
-            <h4 class="work-position">Manager <span class="organization">Roga & Kopyta New</span></h4>
-            <p class="work-period">March 2015 - October 2018  <span class="line">|</span>  Ukraine</p>
-            <ul class="work-list">
-               <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
-               <li class="work-list-item">Quis ipsum suspendisse ultrices gravida.</li>
-               <li class="work-list-item">Risus commodo viverra maecenas.</li>
-            </ul>
-         </div>
-         <!--Company 3-->
-         <div>
-            <h4 class="work-position">Manager <span class="organization">Roga & Kopyta LLC</span></h4>
-            <p class="work-period">June 2014 - February 2015   <span class="line">|</span>   Ukraine</p>
-            <ul class="work-list">
-               <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-               <li class="work-list-item">Quis ipsum suspendisse ultrices gravida.</li>
-               <li class="work-list-item">Risus commodo viverra maecenas.</li>
-            </ul>
-         </div>
-      </div>
-      <!--Education-->
-      <div class="education">
-         <h3 class="title">Education</h3>
-         <h4 class="university">Lviv Polytechnic National University</h4>
-         <h4 class="department">Building and Civil Engineering</h4>
-         <p class="education-period">September 2019 - June 2022   <span class="line">|</span>   Ukraine</p>
-      </div>
-   </div>
-   <!--Sidebar-->
-   <aside class="sidebar">
-      <img src="img/photo_2022-09-30_21-38-17.jpg" alt="user photo" class="photo">
-      <!--Contacts-->
-      <div class="contacts">
-         <h3 class="sidebar-title">Contacts</h3>
-         <div>
-            <p>
-            <span class="contact-type">C:</span> 
-            <a href="tel:+380631086272" class="contact-link">+380 63 108 62 72</a></p>
-            <p>
-            <span class="contact-type">E:</span> 
-            <a href="mailto:olia.medvetska1967@gmail.com" class="contact-link">olia.medvetska1967@gmail.com</a> </p>
-         </div>
-      </div>
-      <!--Tech skills-->
-      <div class="tech-skills">
-         <h3 class="sidebar-title">Tech skills</h3>
-         <ul class="tech-skills-list">
-            <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
+          </div>
+        </div>
+        <!--Tech skills-->
+        <div class="tech-skills">
+          <h3 class="sidebar-title">Tech skills</h3>
+          <ul class="tech-skills-list">
+            <li class="tech-skills-item"><span class="tech-skills-text">HTML5/CSS3/SASS</span></li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Responsive/Adaptive design</span>
+            </li>
             <li class="tech-skills-item"><span class="tech-skills-text">GIT</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-text">WebPack</span></li>
+            <!-- <li class="tech-skills-item"><span class="tech-skills-text">WebPack</span></li> -->
             <li class="tech-skills-item"><span class="tech-skills-text">JavaScript</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-text">React.js</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-text">Node.js</span></li>
-         </ul>
-      </div>
-      <!--Soft skills-->
-      <div class="soft-skills">
-         <h3 class="sidebar-title">Soft skills</h3>
-         <ul class="soft-skills-list">
-            <li class="soft-skills-item"><span class="soft-skills-text">Scrum</span></li>
-            <li class="soft-skills-item"><span class="soft-skills-text">Agile</span></li>
-            <li class="soft-skills-item"><span class="soft-skills-text">GTD</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text">React</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text">Redux</span></li>
+            <li class="tech-skills-item"><span class="tech-skills-text">Node</span></li>
+          </ul>
+        </div>
+        <!--Soft skills-->
+        <div class="soft-skills">
+          <h3 class="sidebar-title">Soft skills</h3>
+          <ul class="soft-skills-list">
             <li class="soft-skills-item"><span class="soft-skills-text">Teamwork</span></li>
-         </ul>
-      </div>
-   </aside>
-</div>
-</body>
+            <li class="soft-skills-item"><span class="soft-skills-text">Diligent</span></li>
+            <li class="soft-skills-item"><span class="soft-skills-text">Eager to learn</span></li>
+            <li class="soft-skills-item"><span class="soft-skills-text">Creative</span></li>
+            <li class="soft-skills-item"><span class="soft-skills-text">Honest</span></li>
+          </ul>
+        </div>
+        <!--Languages-->
+        <div class="languages">
+          <h3 class="sidebar-title">Languages</h3>
+          <ul class="languages-list">
+            <li class="languages-item">
+              <span class="languages-text">Ukrainian - native</span>
+            </li>
+            <li class="languages-item">
+              <span class="languages-text">English - intermediate</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <!-- icons -->
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script src="https://kit.fontawesome.com/43a044e75b.js" crossorigin="anonymous"></script>
+  </body>
 </html>
